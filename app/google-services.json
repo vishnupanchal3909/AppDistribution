@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "337904067089",
+    "project_id": "flutterocr-6c3b6",
+    "storage_bucket": "flutterocr-6c3b6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:337904067089:android:571e21533be9cb685247b0",
+        "android_client_info": {
+          "package_name": "com.aadyam.testingprojecttoappdistribution"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "337904067089-2c8k70put7k7399vn98l3vs0pnj4apdm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAveFEkQLO2qGQOw_BPsRroXg5AIUkSEtU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "337904067089-2c8k70put7k7399vn98l3vs0pnj4apdm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
