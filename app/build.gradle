@@ -17,17 +17,19 @@ android {
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
-    signingConfigs {
+    /*signingConfigs {
         release {
             storeFile file('E:/Vishnu/Imp Documentation/appDistribute.jks')
             storePassword 'aadyam'
             keyAlias 'aadyam'
             keyPassword 'aadyam'
         }
-    }
+    }*/
     buildTypes {
         release {
-            signingConfig signingConfigs.release
+           /* signingConfig signingConfigs.release*/
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
             firebaseAppDistribution {
                 appId = "1:337904067089:android:571e21533be9cb685247b0"
                 artifactType="APK"
