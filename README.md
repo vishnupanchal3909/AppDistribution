@@ -17,3 +17,6 @@ App Distribution to Firebase App Distribution
 4)Command to execute to upload the APK To Firebase App Distribution
 	 ./gradlew clean
 	 ./gradlew assembleRelease appDistributionUploadRelease
+
+  5)Install Firebase CLI
+  https://youtu.be/gptBM2CPMQs?si=gde3Wq8UL8k2wkuf
